@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "UNEXPECTED END OF JSON INPUT",
+    "version": "1.0",
+  
+    "description": "Replaces all text with 'Unexpected End of JSON input",
+  
+    "icons": {
+      "48": "border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["borderify.js"]
+      }
+    ]
+  }
